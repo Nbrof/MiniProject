@@ -2,7 +2,7 @@ const router = require("express").Router();
 
 const { Router } = require("express")
 
-const Tunr = require ("../modelsTunr")
+const Tunr = require ("../models/tunr")
 
 const tunrSeed = [
 
