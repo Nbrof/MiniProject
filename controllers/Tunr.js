@@ -2,14 +2,25 @@ const router = require("express").Router();
 
 const { Router } = require("express")
 
-const Tunr = require ("../modelsTunr")
+const Tunr = require ("../models/tunr")
 
 const tunrSeed = [
-
-
-
-
-]
+  {
+    title: "What I Need",
+    artist: "Haley Kiyoko",
+    time: "5:29"
+  },
+  {
+    title: "Don't Tempt Me",
+    artist: "MiC LOWRY",
+    time: "3:27"
+  },
+  {
+    title: "Ridin Solo (Arvfz Remix)",
+    artist: "Njomza",
+    time: "3:02"
+  },
+];
 
 
 
